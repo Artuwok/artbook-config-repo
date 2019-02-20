@@ -2,7 +2,7 @@ example.property: "Default commit"
 spring.jpa.database: "MYSQL"
 spring.datasource.platform:  "org.hibernate.dialect.MySQLDialect"
 spring.jpa.show-sql: "true"
-spring.database.driverClassName: "com.mysql.jdbc.Driver"
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 spring.datasource.url: "jdbc:mysql://localhost:3306/artbook"
 spring.datasource.username: "art"
 spring.datasource.password: "root"

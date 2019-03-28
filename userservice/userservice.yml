@@ -1,5 +1,5 @@
 example.property: "Default config"
-spring.datasource.platform:  "org.hibernate.dialect.MySQL5InnoDBDialect"
+spring.datasource.platform:  "mysql"
 spring.jpa.show-sql: "true"
 spring.datasource.driver-class-name: "com.mysql.jdbc.Driver"
 spring.datasource.url: "jdbc:mysql://users_db:3306/artbook"

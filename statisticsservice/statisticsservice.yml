@@ -2,7 +2,7 @@ example.property: "statistics default config"
 
 spring.datasource.platform:  "org.hibernate.dialect.MySQL5InnoDBDialect"
 spring.datasource.driver-class-name: "com.mysql.cj.jdbc.Driver"
-spring.datasource.url: "jdbc:mysql://statistics_db:3307/statistics"
+spring.datasource.url: "jdbc:mysql://statistics_db:3306/statistics"
 spring.datasource.username: "user"
 spring.datasource.password: "password"
 spring.datasource.testWhileIdle: "true"
